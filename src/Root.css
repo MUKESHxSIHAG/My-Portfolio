@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Volkhov:wght@400;700&display=swap');
+
+:root {
+    --fs-xxxl: 58px;
+    --fs-xxl: 48px;
+    --fs-xl: 32px;
+    --fs-lg: 28px;
+    --fs-md: 20px;
+    --fs-sm: 18px;
+    --fs-xs: 16px;
+
+
+    --font-weight-xxl: 800;
+    --font-weight-xl: 700;
+    --font-weight-lg: 600;
+    --font-weight-md: 500;
+    --font-weight-sm: 400;
+
+
+
+
+    --text-color-primary: #42446E;
+    --text-color-secondary: #666666;
+    --text-color-white: #ffffff;
+    --text-color-light: #D1D1D1;
+    --text-color-light1: #252c27;
+
+    --font-family-poppins: "Poppins", sans-serif;
+    --font-family-volkhov: "Volkhov", sans-serif;
+    --font-family-openSans: "Open Sans", sans-serif;
+    --font-family-montserrat: "Montserrat", sans-serif;
+
+
+
+
+}
+
+.fs-16 {
+    font-size: var(--fs-xs) !important;
+}
+
+.fs-18 {
+    font-size: var(--fs-sm) !important;
+}
+
+.fs-20 {
+    font-size: var(--fs-md) !important;
+}
+
+.fs-28 {
+    font-size: var(--fs-lg) !important;
+}
+
+.fs-32 {
+    font-size: var(--fs-xl) !important;
+}
+
+.fs-48 {
+    font-size: var(--fs-xxl) !important;
+}
+
+.fs-58 {
+    font-size: var(--fs-xxxl) !important;
+}
+
+.fw-400 {
+    font-weight: var(--font-weight-sm);
+}
+
+.fw-500 {
+    font-weight: var(--font-weight-md);
+}
+
+.fw-600 {
+    font-weight: var(--font-weight-lg);
+}
+
+.fw-700 {
+    font-weight: var(--font-weight-xl);
+}
+
+.fw-800 {
+    font-weight: var(--font-weight-xxl);
+}
+
+/* *******text-colors************ */
+
+.fc-primary {
+    color: var(--text-color-primary);
+}
+
+.fc-secondary {
+    color: var(--text-color-secondary);
+}
+
+.fc-white {
+    color: var(--text-color-white);
+}
+
+.fc-light {
+    color: var(--text-color-light);
+}
+
+.fc-light1 {
+    color: var(--text-color-light1);
+}
+
+
+/* **********font-family*********** */
+
+.ff-poppins {
+    font-family: var(--font-family-poppins);
+}
+
+.ff-volkhov {
+    font-family: var(--font-family-volkhov);
+}
+
+.ff-openSans {
+    font-family: var(--font-family-openSans);
+}
+
+.ff-montserrat {
+    font-family: var(--font-family-montserrat);
+}
+
+
+@media (max-width:768px) {
+    :root {
+        --fs-xxxl: 48px !important;
+        --fs-xxl: 40px !important;
+        --fs-xl: 32px !important;
+    }
+}
+
+
+@media (max-width:576px) {
+    :root {
+        --fs-xxxl: 44px !important;
+        --fs-xxl: 36px !important;
+        --fs-xl: 28px !important;
+        --fs-lg: 22px !important;
+        --fs-md: 16px !important;
+        --fs-sm: 14px !important;
+        --fs-xs: 10px !important;
+    }
+}
