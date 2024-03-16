@@ -25,7 +25,8 @@ const Map = () => {
                                         </p>
                                         <div className='d-flex justify-content-between align-items-center px-4'>
                                         <Link className='fw-600 ff-montserrat fc-light1 fs-20'>{data.btn}</Link>
-                                        <Link>{data.code}</Link>
+                                        {/* <Link>{data.code}</Link> */}
+                                        <Link target='_blank' to={data.pathName}>{data.code}</Link>
                                         </div>
 
                                     </div>

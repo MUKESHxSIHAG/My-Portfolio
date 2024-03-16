@@ -57,6 +57,27 @@
 .mine2:hover{
   scale: 0.8;
 }
+.min-vh-75{
+  min-height: 65vh !important;
+}
+
+.max-708{
+  max-width: 708px !important;
+}
+.time{
+  background-color: #D7FFE0 !important;
+  color: #018C0F !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  border-radius: 18px;
+}
+
+.fs-mail{
+  font-size: 48px;
+}
 
 
 
@@ -67,6 +88,7 @@
 
 
 @media (max-width:992px) {
+ 
   .nav_bar {
     color: #FFFFFF;
     gap: 20px;
@@ -97,4 +119,11 @@
     padding-top: 25px;
   }
   
+  .fs-mail{
+    font-size: 24px;
+  }
+   
+  .min-vh-75{
+    min-height: 50vh !important;
+  }
 }
