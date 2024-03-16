@@ -6,6 +6,8 @@ const Projects = () => {
   return (
     <>
     <Map/>
+
+    
     </>
   )
 }
