@@ -13,7 +13,7 @@ export const CardSection = [
         btn: 'Live Preview',
         code: 'View Code',
         href: "https://dompkonghomepage1.netlify.app/"
-       
+
     },
 
     {
@@ -23,6 +23,7 @@ export const CardSection = [
         paragraph: 'Pretium, a et sapien non nunc libero. Id dolor sed quis convallis turpis purus feugiat nibh eu. Auctor cras hac ac, sociis diam montes, turpis commodo elit.',
         btn: 'View Project Live',
         code: 'View Code',
+        pathName: "https://www.facebook.com",
     },
 
     {
@@ -32,6 +33,7 @@ export const CardSection = [
         paragraph: 'Pretium, a et sapien non nunc libero. Id dolor sed quis convallis turpis purus feugiat nibh eu. Auctor cras hac ac, sociis diam montes, turpis commodo elit.',
         btn: 'View Project Live',
         code: 'View Code',
+        pathName:"https://www.instagram.com/",
     },
 
     {
