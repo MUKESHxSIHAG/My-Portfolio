@@ -14,8 +14,8 @@ const Map = () => {
                         return (
                             <Col key={index} lg={4} md={6}>
                                 <div className='d-flex justify-content-center align-items-center text-center my-3'>
-                                    <div className='rounded-4 cardBorder pb-5'>
-                                        <img className='w-100 rounded-top-4' height={210} src={data.img} alt="" />
+                                    <div  className='rounded-4 cardBorder pb-5'>
+                                        <img  className='w-100 rounded-top-4' height={210} src={data.img} alt="" />
                                         <h2 className='mt-4 mb-0'>
                                             {data.heading}
                                         </h2>

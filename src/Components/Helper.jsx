@@ -12,7 +12,7 @@ export const CardSection = [
         paragraph: 'Pretium, a et sapien non nunc libero. Id dolor sed quis convallis turpis purus feugiat nibh eu. Auctor cras hac ac, sociis diam montes, turpis commodo elit.',
         btn: 'Live Preview',
         code: 'View Code',
-        href: "https://dompkonghomepage1.netlify.app/"
+        pathName: "https://dompkonghomepage1.netlify.app/"
 
     },
 
