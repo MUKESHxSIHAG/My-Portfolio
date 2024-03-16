@@ -22,8 +22,8 @@ const Map = () => {
                                         <p className='mt-3'>
                                             {data.paragraph}
                                         </p>
-                                        <div className='d-flex justify-content-between align-items-center px-4'>
-                                            <Link className='fw-600 ff-montserrat fc-light1 fs-20'>{data.btn}</Link>
+                                        <div className='d-flex  justify-content-between align-items-center px-4'>
+                                            <Link className='fw-600  ff-montserrat fc-light1 fs-20'>{data.btn}</Link>
                                             <Link target='_blank' to={data.pathName}>{data.code}</Link>
                                         </div>
 
