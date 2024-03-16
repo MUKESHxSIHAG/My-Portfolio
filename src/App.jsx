@@ -2,19 +2,29 @@ import './App.css'
 import './Root.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PortfolioNav from './Components/PortfolioNav';
-import HeroSection from './Components/HeroSection';
 import TechStack from './Components/TechStack';
-import Map from './Components/Map';
 import Footer from './Components/Footer';
+import { Route, Routes,  } from 'react-router-dom';
+import Home from './Components/Home';
+import Projects from './Components/Projects';
 
 function App() {
 
   return (
     <>
-   <PortfolioNav/>
-   <HeroSection/>
-   <TechStack/>
-   <Map/>
+    <div>
+
+    <PortfolioNav/>
+      <Routes>
+      <Route path="/" Component={Home} />
+        <Route path="/tech" Component={TechStack} />
+        <Route path="/project" Component={Projects} />
+          
+          
+         
+
+      </Routes>
+    </div>
    <Footer/>
      
     </>

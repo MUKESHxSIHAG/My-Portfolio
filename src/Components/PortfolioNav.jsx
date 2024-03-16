@@ -29,10 +29,10 @@ const PortfolioNav = () => {
 
                     <div className='position-relative z-3 d-lg-none text-black fs01' onClick={first ? shownav : hidenav}>  {first ? <RxHamburgerMenu /> : <RxCross1 />}  </div>
                     <ul className={first ? 'd-flex justify-content-center align-items-center gap-5 nav_bar pt-2 ps-0' : "d-flex ps-0 gap-5 nav_bar pt-2 show"} >
-                        <li className='pt-2'><Link className='fc-secondary fw-600 ff-openSans fs-20 hvr' >HOME</Link></li>
+                        <li className='pt-2'><Link to="/" className='fc-secondary fw-600 ff-openSans fs-20 hvr' >HOME</Link></li>
                         <li className='pt-2'><Link className='fc-secondary fw-600 ff-openSans fs-20 hvr'>ABOUT</Link></li>
-                        <li className='pt-2'><Link className='fc-secondary fw-600 ff-openSans fs-20 hvr'>TECH STACK</Link></li>
-                        <li className='pt-2'><Link className='fc-secondary fw-600 ff-openSans fs-20 hvr'>PROJECTS</Link></li>
+                        <li className='pt-2'><Link to="./ " className='fc-secondary fw-600 ff-openSans fs-20 hvr'>TECH STACK</Link></li>
+                        <li className='pt-2'><Link to='/projects' className='fc-secondary fw-600 ff-openSans fs-20 hvr'>PROJECTS</Link></li>
                         <li className='pt-2'><Link className='fc-secondary fw-600 ff-openSans fs-20 hvr'>CONTACT</Link></li>
                        <form className='d-flex justify-content-center align-items-center gap-3'>
                        <li className='pt-2'><a className='svg1' href="https://github.com/MUKESHxSIHAG"><GitHub/></a></li>
