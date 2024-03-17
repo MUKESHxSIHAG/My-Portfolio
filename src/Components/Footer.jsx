@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo from '../assets/Images/Logo.jpg'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
@@ -27,23 +26,23 @@ const Footer = () => {
     <div className='d-flex justify-content-between align-items-center py-4'>
         <Row className='d-flex justify-content-start align-items-center'>
             <Col lg={2} md={3} sm={4} xs={6}>
-            <Link><p className='fs-18 fw-400 fc-secondary ff-poppins hvr'>Home</p></Link>
+            <Link to='/'><p className='fs-18 fw-400 fc-secondary ff-poppins hvr'>Home</p></Link>
             </Col>
 
             <Col lg={2} md={3} sm={4} xs={6}>
-            <Link><p className='fs-18 fw-400 fc-secondary ff-poppins hvr'>About</p></Link>
+            <Link to="/about"><p className='fs-18 fw-400 fc-secondary ff-poppins hvr'>About</p></Link>
             </Col>
 
             <Col lg={2} md={3} sm={4} xs={6}>
-            <Link><p className='fs-18 fw-400 fc-secondary ff-poppins hvr'>Contact</p></Link>
+            <Link to='/contact'><p className='fs-18 fw-400 fc-secondary ff-poppins hvr'>Contact</p></Link>
             </Col>
 
             <Col lg={2} md={3} sm={4} xs={6}>
-            <Link><p className='fs-18 fw-400 fc-secondary ff-poppins hvr'>Projects</p></Link>
+            <Link to='projects'><p className='fs-18 fw-400 fc-secondary ff-poppins hvr'>Projects</p></Link>
             </Col>
 
             <Col lg={2} md={3} sm={4} xs={6}>
-            <Link><p className='fs-18 fw-400 fc-secondary ff-poppins hvr'>Technologies</p></Link>
+            <Link to='tech'><p className='fs-18 fw-400 fc-secondary ff-poppins hvr'>Technologies</p></Link>
             </Col>
         </Row>
         <p className='text-center ff-poppins fw-600 fc-primary fs-20'>© Designed and built by Mukesh Sihag </p>
