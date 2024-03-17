@@ -33,7 +33,7 @@ export const CardSection = [
         paragraph: 'Pretium, a et sapien non nunc libero. Id dolor sed quis convallis turpis purus feugiat nibh eu. Auctor cras hac ac, sociis diam montes, turpis commodo elit.',
         btn: 'View Project Live',
         code: 'View Code',
-        pathName: ""
+        pathName: "https://github.com/MUKESHxSIHAG/wuaocoin"
     },
 
     {
@@ -43,7 +43,7 @@ export const CardSection = [
         paragraph: 'Pretium, a et sapien non nunc libero. Id dolor sed quis convallis turpis purus feugiat nibh eu. Auctor cras hac ac, sociis diam montes, turpis commodo elit.',
         btn: 'View Project Live',
         code: 'View Code',
-        pathName: "https://dompkonghomepage1.netlify.app/"
+        pathName: ""
     },
 
     {
@@ -53,7 +53,7 @@ export const CardSection = [
         paragraph: 'Pretium, a et sapien non nunc libero. Id dolor sed quis convallis turpis purus feugiat nibh eu. Auctor cras hac ac, sociis diam montes, turpis commodo elit.',
         btn: 'View Project Live',
         code: 'View Code',
-        pathName: "https://dompkonghomepage1.netlify.app/"
+        pathName: "https://github.com/MUKESHxSIHAG/cvhawk"
     },
 
     {
@@ -63,6 +63,6 @@ export const CardSection = [
         paragraph: 'Pretium, a et sapien non nunc libero. Id dolor sed quis convallis turpis purus feugiat nibh eu. Auctor cras hac ac, sociis diam montes, turpis commodo elit.',
         btn: 'View Project Live',
         code: 'View Code',
-        pathName: "https://dompkonghomepage1.netlify.app/"
+        pathName: "https://github.com/MUKESHxSIHAG/cyberdrops"
     },
 ]

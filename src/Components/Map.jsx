@@ -13,26 +13,24 @@ const Map = () => {
                     {CardSection.map((data) => {
                         return (
                             <>
-                            <Col lg={4} md={6}>
-                                <div className='d-flex justify-content-center align-items-center text-center my-3'>
-                                    <div className='rounded-4 cardBorder pb-5'>
-                                        <img className='w-100 rounded-top-4' height={210} src={data.img} alt="" />
-                                        <h2 className='mt-4 mb-0'>
-                                            {data.heading}
-                                        </h2>
-                                        <p className='mt-3'>
-                                            {data.paragraph}
-                                        </p>
-                                        <div className='d-flex justify-content-between align-items-center px-4'>
-                                        <Link className='fw-600 ff-montserrat fc-light1 fs-20'>{data.btn}</Link>
-                                        {/* <Link>{data.code}</Link> */}
-                                        <Link target='_blank' to={data.pathName}>{data.code}</Link>
+                                <Col lg={4} md={6}>
+                                    <div className='d-flex justify-content-center align-items-center text-center my-3'>
+                                        <div className='rounded-4 cardBorder pb-5'>
+                                            <img className='w-100 rounded-top-4' height={210} src={data.img} alt="" />
+                                            <h2 className='mt-4 mb-0'>
+                                                {data.heading}
+                                            </h2>
+                                            <p className='mt-3'>
+                                                {data.paragraph}
+                                            </p>
+                                            <div className='d-flex justify-content-between align-items-center px-4'>
+                                                <Link className='fw-600 ff-montserrat fc-light1 fs-20'>{data.btn}</Link>
+                                                {/* <Link>{data.code}</Link> */}
+                                                <Link target='_blank' to={data.pathName}>{data.code}</Link>
+                                            </div>
                                         </div>
-
                                     </div>
-
-                                </div>
-                            </Col>
+                                </Col>
                             </>
                         );
                     }
